@@ -1,0 +1,183 @@
+
+#body{
+    background-color: #3333;
+    font-family: "inter", sans-serif;
+}
+
+.prop {
+    background-color: #ffffff;
+    width: 70%;
+    float: right;
+    margin: 15px;
+    height: 235px;
+    border-color: #3333;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 6px 6px 10px 1px gray;
+    border-radius: 4px;
+}
+
+.carousel  {
+    width: 40%;
+    height: 100%;
+    float: left;
+    border-radius: 8px;
+}
+
+.carousel img{
+    height: 100%;
+}
+
+#contenido{
+    width: 55%;
+    float: left;
+    margin-left: 20px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+#tipo{
+    background-color: rgb(56, 56, 56);
+    color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 1px 1px 2px 0.5px #000000;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    border-top-left-radius: 4px;
+}
+
+#id {
+    color: #ED9D42;
+    padding-top: 8px;   
+    float: left;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#property_type {
+    float: right;
+    padding-top: 8px;   
+}
+
+#btn {  
+    float: right;
+    background-color: chocolate;
+    border-radius: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 3px 3px 8px 1px gray;
+}
+
+#titulo {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 90%;
+}
+
+#filter{
+    height: 95%;
+    background-color: #ffffff;
+    left: 60px;
+    width: 270px;
+    border-radius: 4px;
+    margin-top: 15px;
+    padding: 20px;
+    position:fixed;
+    box-shadow: 6px 6px 10px 1px gray;
+    z-index: 99;
+}
+
+
+#inputPreciomin{
+    width: 100%;
+    margin-top: 1px;
+}
+#inputPreciomax{
+    width: 100%;
+    margin-top: 5px;
+}
+
+#opcionBtn >*{
+    margin: 3px;
+    width: 40px;
+    background-color: #ffffff;
+    color: #180C7A;
+    border-color: chocolate;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-check {
+    width: 50%;
+    float: left;
+    font-size: 15px;
+}
+
+.dormi {
+    margin-top: 55px;
+}
+
+#preciocurrency{
+    margin-left: 60px;
+}
+#preciocurrency2{
+    margin-left: 75px;
+}
+
+#textPrecioCurrency{
+    margin-left: 20px;
+}
+
+#cargar{
+    width: 100%;
+    padding: 50px;
+    font-size: large;
+    border-radius: 6px;
+    box-shadow: 6px 6px 10px 1px gray;
+    background-color: cornflowerblue;
+    border: none;
+    color: #ffffff;
+}
+.container-btn{
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 600px;
+
+}
+
+#todotypebox {
+    float: right;
+}
+
+#limpiar{
+    width: 98%;
+    margin-left: 2px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+select {
+    width: 225px;
+}
+
+#final {
+    margin-top: 30px;
+}

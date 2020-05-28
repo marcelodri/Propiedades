@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body id="body">
+<div class="container col-md-11">    
+    <div id="filter">   
+        <div>
+            <label for="">Provincia</label>
+            <select name="region" id="region">
+                <option value=""></option>
+                <option value="Bs.As. G.B.A. Zona Oeste">Bs.As. G.B.A. Zona Oeste</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Formosa">Formosa</option>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <label for="">Barrio</label>
+            <select name="region" id="city">
+                <option value=""></option>
+                <option value="Villa General Belgrano">Villa General Belgrano</option>
+                <option value="Los Chiriguanos">Los Chiriguanos</option>
+                <option value="San Roque">San Roque</option>
+                <option value="Ituzaingó">Ituzaingó</option>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <label for="Tipo">Tipo</label>
+            <br>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="typecasa" value="Casa" >
+                <spam class="form-check-label" for="type">
+                    Casa
+                </spam>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="typedepartamento" value="Departamento">
+                <spam class="form-check-label" for="type">
+                    Departamento
+                </spam>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="typeph" value="PH">
+                <spam class="form-check-label" for="type">
+                    PH
+                </spam>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="typeterreno" value="Terreno">
+                <spam class="form-check-label" for="type">
+                    Terreno
+                </spam>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="typecampo" value="Campo">
+                <spam class="form-check-label" for="type">
+                    Campo
+                </spam>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="typequinta" value="Quinta">
+                <spam class="form-check-label" for="exampleRadios3">
+                    Quinta
+                </spam>
+            </div>
+        </div>
+        <br>
+        <div class="dormi">
+            <label for="">Dormitorios</label>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons" id="opcionBtn">
+                <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="1"> 1
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="2" > 2
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="3"> 3
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="4"> 4
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="5" checked>5
+                </label>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <label for="precio">Precio</label>
+                <input class="form-check-input" type="radio" name="exampleRadios" id="preciocurrency" value="USD">
+                    <spam class="form-check-label" for="preciocurrency" id="textPrecioCurrency">
+                        USD
+                    </spam>
+                <input class="form-check-input" type="radio" name="exampleRadios" id="preciocurrency2" value="ARS" >
+                    <spam class="form-check-label" for="preciocurrency" id="textPrecioCurrency2" style="margin-left: 36Px">
+                        ARS
+                    </spam>
+            <br>
+            <input type="number" placeholder="Minimo" id="inputPreciomin">
+            <input type="number" placeholder="Máximo" id="inputPreciomax">
+        </div>
+            <input id="limpiar" type="button" value="Limpiar Filtros" ></input>
+        <div>
+        </div>  
+    </div>
+    <div class="container-btn">
+        <input id="cargar" type="button" value="Cargar Propiedades" ></input>
+    </div>
+    <div id="propiedades">
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<script src="./xmlToJson-master/xmlToJson.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</html>
